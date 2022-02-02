@@ -68,3 +68,13 @@ html, body {
 ::placeholder {
   color: #aaa;
 }
+
+.btn {
+  padding: 6px 30px;
+  font-size: 18px;
+  border: none;
+  background-color: #2196f3;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 6px;
+}
