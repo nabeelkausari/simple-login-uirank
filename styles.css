@@ -4,13 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 html, body {
   width: 100%;
   height: 100%;
   color: #212121;
-  font-family: 'Poppins', sans-serif;
 }
 
 .main {
@@ -31,13 +31,19 @@ html, body {
 }
 
 .box-header {
+  background-color: #2196f3;
   padding: 40px 30px 30px;
+  color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #2196f3;
-  color: #fff;
 }
 
 .box-body {
   padding: 20px 30px 40px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
 }
