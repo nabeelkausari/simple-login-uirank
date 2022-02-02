@@ -59,3 +59,12 @@ html, body {
   border-radius: 6px;
   border: 1px solid #888;
 }
+
+.form-control input:focus {
+  outline: 1px solid #2196f3;
+  border: 1px solid #2196f3;
+}
+
+::placeholder {
+  color: #aaa;
+}
