@@ -26,11 +26,14 @@ html, body {
 .box {
   width: 300px;
   border: 1px solid #eee;
+  border-radius: 10px;
   background-color: #fff;
 }
 
 .box-header {
   padding: 40px 30px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-color: #2196f3;
   color: #fff;
 }
