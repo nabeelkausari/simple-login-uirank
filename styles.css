@@ -17,3 +17,16 @@ html, body {
   height: 100%;
   min-height: 520px;
 }
+
+.box {
+  width: 300px;
+  border: 1px solid #eee;
+}
+
+.box-header {
+  padding: 40px 30px 30px;
+}
+
+.box-body {
+  padding: 20px 30px 40px;
+}
